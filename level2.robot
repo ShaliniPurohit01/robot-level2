@@ -24,7 +24,6 @@ Open website to order
 Download file
     Download
     ...    https://robotsparebinindustries.com/orders.csv
-    # ...        ...    https://robotsparebinindustries.com/orders.csv      https://1drv.ms/f/s!Aj1BcQrL4xUqgbAeQ_WFLRe0kWm3DQ?e=RwdVd0/dummy.csv
 Read csv file as table
     ${orders}=    Read table from CSV    ${CURDIR}${/}orders.csv    header=${True}
     FOR    ${order}    IN    @{orders}
